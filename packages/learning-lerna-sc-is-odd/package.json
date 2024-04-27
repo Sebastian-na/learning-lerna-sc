@@ -1,0 +1,21 @@
+{
+  "name": "learning-lerna-sc-is-odd",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Sebastián Castañeda <sebastian.castaneda@alegra.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/learning-lerna-sc-is-odd.js",
+  "types": "dist/learning-lerna-sc-is-odd.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  }
+}
