@@ -1,3 +1,2 @@
 npx lint-staged
 npx lerna run test
-exit 1
