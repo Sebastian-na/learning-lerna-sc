@@ -1,6 +1,6 @@
 {
   "name": "learning-lerna-sc-is-even",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "Sebastián Castañeda <sebastian.castaneda@alegra.com>",
@@ -20,7 +20,7 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "learning-lerna-sc-is-odd": "^1.0.1"
+    "learning-lerna-sc-is-odd": "^1.0.2"
   },
   "gitHead": "371a870cae66cda82854d2b27fcfe224c2c2a3a4"
 }
