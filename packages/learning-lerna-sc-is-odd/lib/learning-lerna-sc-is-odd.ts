@@ -1,4 +1,3 @@
 export function isOdd(num: number): boolean {
-  const hola = "hola";
-  return num % 2 === 1;
+  return num % 2 === 1
 }
