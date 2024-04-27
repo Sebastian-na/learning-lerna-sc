@@ -7,6 +7,11 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    ignores: ["**/dist/", "**/.nx/**/*", "**/__tests__/**/*"],
+    ignores: [
+      "**/dist/",
+      "**/.nx/**/*",
+      "**/__tests__/**/*",
+      "commitlint.config.js",
+    ],
   },
 ]
