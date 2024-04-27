@@ -16,6 +16,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest"
-  }
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "gitHead": "31c11436737453aba16d9f4fe3fc35c9cb5f74fb"
 }

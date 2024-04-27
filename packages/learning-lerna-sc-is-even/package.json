@@ -16,9 +16,11 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run build"
   },
   "dependencies": {
-    "learning-lerna-sc-is-odd": "file:../learning-lerna-sc-is-odd"
-  }
+    "learning-lerna-sc-is-odd": "^1.0.0"
+  },
+  "gitHead": "31c11436737453aba16d9f4fe3fc35c9cb5f74fb"
 }
